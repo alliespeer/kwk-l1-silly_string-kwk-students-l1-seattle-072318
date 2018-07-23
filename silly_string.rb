@@ -29,7 +29,7 @@ letter_count = big_word # Put a . after big_word and use a String method.
 puts "There are #{letter_count} in #{big_word}"
 
 # Challenge 5: Add "wow" and "mom" to big_word
-puts "supercalifragilisticexpialidocious + wow + mom"
+puts "supercalifragilisticexpialidocious" + wow + mom
 bigger_word = big_word # Use String concatenation to add "wow" and "mom" to big_word
 
 new_letter_count = bigger_word.size
